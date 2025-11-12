@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Techycorp Solutions</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f7fa; margin: 0; }
+    header { background: #fff; padding: 10px; }
+    h1 { color: #13aee1; margin: 0; }
+    nav { margin-top: 10px; }
+    nav a { margin-right: 15px; text-decoration: none; color: #222; }
+    nav button { background: #13aee1; color: #fff; border: none; padding: 6px 12px; border-radius: 4px; }
+
+    .container { padding: 20px; }
+    .courses, .features { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+    .course-card, .feature-box { background: #fff; border-radius: 5px; box-shadow: 0 1px 3px #ddd; padding: 10px; flex: 1 1 200px; min-width: 180px; text-align: center; }
+    .course-card img { width: 100%; max-width: 180px; height: 90px; object-fit: cover; border-radius: 4px; }
+
+    .course-card span { color: #00bcd4; font-size: 0.9em; }
+
+    .feature-box h3 { color: #13aee1; margin-bottom: 8px; }
+    .feature-box p { color: #333; font-size: 0.95em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Techycorp Solutions</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Courses</a>
+      <a href="#">Contact</a>
+      <button>Join Now</button>
+    </nav>
+  </header>
+  <div class="container">
+    <!-- Courses Section -->
+    <div class="courses">
+      <div class="course-card">
+        <img src="https://via.placeholder.com/180x90?text=Java+Full+Stack" alt="Java Full Stack">
+        <div>Java Full Stack<br><span>360 Hrs</span></div>
+      </div>
+      <div class="course-card">
+        <img src="https://via.placeholder.com/180x90?text=Web+Dev+%26+Design" alt="Web Development & Design">
+        <div>Web Development & Design<br><span>320 Hrs</span></div>
+      </div>
+      <div class="course-card">
+        <img src="https://via.placeholder.com/180x90?text=Data+Analytics" alt="Data Analytics">
+        <div>Data Analytics<br><span>380 Hrs</span></div>
+      </div>
+      <div class="course-card">
+        <img src="https://via.placeholder.com/180x90?text=Cloud+Solution" alt="Cloud Solution Architect">
+        <div>Cloud Solution Architect<br><span>260 Hrs</span></div>
+      </div>
+    </div>
+    <!-- Features Section -->
+    <div class="features">
+      <div class="feature-box">
+        <h3>Skilled Instructors</h3>
+        <p>Trainers with 10+ years of industry experience for skill development.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Our Services</h3>
+        <p>Corporate training with real-world, job-oriented programs.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Why Choose Us</h3>
+        <p>Proven results, expert trainers, and good placement support.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Scholarship Facility</h3>
+        <p>Scholarships available. Contact our office for more.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
